@@ -1,0 +1,37 @@
+body::before{
+
+    display: block;
+    content: '';
+    height: 48px;
+ } 
+
+
+@media(min-width:768px){
+
+    .news-input{
+
+        width: 50%;
+
+    }
+
+}
+
+@media(min-width:992px){
+
+    .news-input{
+
+        width: 60%;
+
+    }
+
+}
+
+@media(min-width:1200px){
+
+    .news-input{
+
+        width: 65%;
+
+    }
+
+}
